@@ -1,0 +1,125 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.529efb48-33c5-4293-a570-4bea910432c4",
+		"application": {
+			"applicationId": "amzn1.ask.skill.5df7bbc4-7fda-4f84-bdfb-aab9ea19d20a"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AH5EQBUYINXL547WSYZHXD3TUIKNS5RENWXW2YAWUSS23VTS4IF2Y36OP5MN26MGJOGB7QVN6EUA3HWPBFIZZSBVT7V63C3UOT3CD4RDBUGFUAAKV4HFS6K3PIJDOM45UKEAVJ7CBP3FOXJPN5VXASPUOSADNLVA74S57ZKUL4JDQ7LYGBE6BQFROV2M6V5XVTFG7E5TTGXRMLI"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.5df7bbc4-7fda-4f84-bdfb-aab9ea19d20a"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AH5EQBUYINXL547WSYZHXD3TUIKNS5RENWXW2YAWUSS23VTS4IF2Y36OP5MN26MGJOGB7QVN6EUA3HWPBFIZZSBVT7V63C3UOT3CD4RDBUGFUAAKV4HFS6K3PIJDOM45UKEAVJ7CBP3FOXJPN5VXASPUOSADNLVA74S57ZKUL4JDQ7LYGBE6BQFROV2M6V5XVTFG7E5TTGXRMLI"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AEGHJKJBPODKWI4U6K3LU7UTCEBVBDCJ4VVGYJ6ZYNKVDDLKZZ5HXRC2DXVUL4DZBHZQYNNA6Z24Y4PCO2VJW2PXFW26EHXYSNFJAIOR33MGASEHREUU7XABZMK2HQ4FVGYDXAB7C7VK7HROS43OTRBQBKQF5U3ZMFNGJMG2MNHUZHZ2D4N7W",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjVkZjdiYmM0LTdmZGEtNGY4NC1iZGZiLWFhYjllYTE5ZDIwYSIsImV4cCI6MTU3NDE3ODg5OCwiaWF0IjoxNTc0MTc4NTk4LCJuYmYiOjE1NzQxNzg1OTgsInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQUFEenpJMDl6c0VVTURXU0IzQjBLeEdoS1FFQUFBQUFBQUM1MWJKVVpieGozT3ZESEVJUjN4VjVpUUZsNFg1UE4zUU5qTGFCK2kzaUJjcnBOUy9pS1NLd2pzaFE4NHJWSVNCZ0VaVmVobEs3ODFONU5DbGhscFZJM0dKL1dNTTI3bzRETWlZTVh4STl0QUZsOGtzNlVvVzRPRFQ1UVRrazVrYXAwaTQ0bHlBcStMSklqeXd0QUhtQ2JRbXB4OGNvYk4vZjZDcVY2L2xzWlpEQUxySERSTW8ybW4xTmxhaEpnVndBTHpqN280TXJQeXhKMDlKeUQvRVZESCtybHpscDNNWXhrdndKaHllZFFSQVMwcENUTHh3VHcvazBUZ2t2RGpoOW93MGhmZjFOWFVLR05qRXFYMklQVUtrUWtPY0JocnE5WVFRYmxLYzV3c0V1RjJaUjloeVAxdHhrVnhPQzN5QkRweUxvQ0FZbzVzdlBnTXB3SWl5cjlnVFF1b2U5T3RGcHhyYUJWUFp4VHRxT01OV25XNXQ5RnJISUg3Wjd4RUVuWGJrYU9SMGpDRGM9IiwiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUVHSEpLSkJQT0RLV0k0VTZLM0xVN1VUQ0VCVkJEQ0o0VlZHWUo2WllOS1ZERExLWlo1SFhSQzJEWFZVTDREWkJIWlFZTk5BNloyNFk0UENPMlZKVzJQWEZXMjZFSFhZU05GSkFJT1IzM01HQVNFSFJFVVU3WEFCWk1LMkhRNEZWR1lEWEFCN0M3Vks3SFJPUzQzT1RSQlFCS1FGNVUzWk1GTkdKTUcyTU5IVVpIWjJENE43VyIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFINUVRQlVZSU5YTDU0N1dTWVpIWEQzVFVJS05TNVJFTldYVzJZQVdVU1MyM1ZUUzRJRjJZMzZPUDVNTjI2TUdKT0dCN1FWTjZFVUEzSFdQQkZJWlpTQlZUN1Y2M0MzVU9UM0NENFJEQlVHRlVBQUtWNEhGUzZLM1BJSkRPTTQ1VUtFQVZKN0NCUDNGT1hKUE41VlhBU1BVT1NBRE5MVkE3NFM1N1pLVUw0SkRRN0xZR0JFNkJRRlJPVjJNNlY1WFZURkc3RTVUVEdYUk1MSSJ9fQ.hsreowqvmdNlqJjo3ZFTy4EMFZJYCpG47iHOUlX4QWyb5-4z66N08eVtoMpi8YBDANCb4Dfja88ppCuHXKSMRn1jlTEzbFTs5Mm95MKrU-Wt0lrdWhTqUIQhwRxi0ywbUAcxClenbHXRHnYG-MlDUH9gpeI-VrC_X4sLnPOTvC4WOENupKJQ0PbJzVjJBV6imdLV34SrJtgBZEVPsK7C2iv44otv-OjJq0_6cK7WEqUzAF-7eU7dui1WgWYBiRoONsQC_-jam2YXcvbbqkffH4VW8-p-0Y2YRMqlpozwt_dopxkjz8vxr75VJyrXs2Tg1Uas6n4Meko4C6-jaqZL5g"
+		},
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 246,
+					"arcMinuteHeight": 144,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"shape": "RECTANGLE",
+			"pixelWidth": 1024,
+			"pixelHeight": 600,
+			"dpi": 160,
+			"currentPixelWidth": 1024,
+			"currentPixelHeight": 600,
+			"touch": [
+				"SINGLE"
+			],
+			"video": {
+				"codecs": [
+					"H_264_42",
+					"H_264_41"
+				]
+			}
+		},
+		"Viewports": [
+			{
+				"type": "APL",
+				"id": "main",
+				"shape": "RECTANGLE",
+				"dpi": 160,
+				"presentationType": "STANDARD",
+				"canRotate": false,
+				"configuration": {
+					"current": {
+						"video": {
+							"codecs": [
+								"H_264_42",
+								"H_264_41"
+							]
+						},
+						"size": {
+							"type": "DISCRETE",
+							"pixelWidth": 1024,
+							"pixelHeight": 600
+						}
+					}
+				}
+			}
+		]
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.26ed58a7-469b-4fa2-b656-38dd829212a3",
+		"timestamp": "2019-11-19T15:49:59Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "FamilyLaw",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"what_have_you_tried_before": {
+					"name": "what_have_you_tried_before",
+					"value": "nope",
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"family_slot": {
+					"name": "family_slot",
+					"value": "vehicle",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.5df7bbc4-7fda-4f84-bdfb-aab9ea19d20a.Family_Slot",
+								"status": {
+									"code": "ER_SUCCESS_NO_MATCH"
+								}
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"which_city_you_are_in": {
+					"name": "which_city_you_are_in",
+					"value": "Texas",
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"type_slot": {
+					"name": "type_slot",
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				}
+			}
+		},
+		"dialogState": "COMPLETED"
+	}
+}

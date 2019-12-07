@@ -1,0 +1,1275 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "ja luci",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "FamilyLaw",
+          "slots": [
+            {
+              "name": "family_slot",
+              "type": "Family_Slot",
+              "samples": [
+                "i have an issue with my {family_slot}",
+                "{family_slot}"
+              ]
+            },
+            {
+              "name": "what_have_you_tried_before",
+              "type": "AMAZON.SearchQuery",
+              "samples": [
+                "{what_have_you_tried_before}"
+              ]
+            },
+            {
+              "name": "type_slot",
+              "type": "Type_Slot"
+            },
+            {
+              "name": "which_city_you_are_in",
+              "type": "AMAZON.City",
+              "samples": [
+                "{which_city_you_are_in}"
+              ]
+            }
+          ],
+          "samples": [
+            "how to claim {type_slot} of my {family_slot}",
+            "what to do to resolve conflict with {family_slot}",
+            "whom to reach in case of family conflict",
+            "what to do in case of family dispute",
+            "how to solve dispute with {family_slot}",
+            "I have dispute with {family_slot}",
+            "what to do in case of conflict with {family_slot}",
+            "I have an issue with my {family_slot}",
+            "I have an issue with {family_slot}",
+            " want to change {family_slot} {type_slot}",
+            "How to get {type_slot} of {family_slot}",
+            " want {type_slot} of my {family_slot}",
+            " want to declare Paternity for my {family_slot}",
+            " want to get separated with my {family_slot}",
+            "Family Law",
+            "need help regarding family law",
+            "i have a conflict with my {family_slot}",
+            "Need help regarding {family_slot}",
+            "I want a divorce",
+            "I have issues with my {family_slot}"
+          ]
+        },
+        {
+          "name": "ConsumerLaw",
+          "slots": [
+            {
+              "name": "consumer_slot",
+              "type": "Consumer_Slot",
+              "samples": [
+                "I have an issue with {consumer_slot}",
+                "{consumer_slot}"
+              ]
+            },
+            {
+              "name": "what_have_you_tried_before",
+              "type": "AMAZON.SearchQuery",
+              "samples": [
+                "{what_have_you_tried_before}"
+              ]
+            },
+            {
+              "name": "which_city_are_you_in",
+              "type": "AMAZON.City",
+              "samples": [
+                "{which_city_are_you_in}"
+              ]
+            },
+            {
+              "name": "device",
+              "type": "AMAZON.DeviceType"
+            }
+          ],
+          "samples": [
+            "what is the right way to approach for legal help against my {consumer_slot}",
+            "how to raise monetary claim against {consumer_slot} in case of cheating",
+            "how to start legal procedure against {consumer_slot}",
+            "have issues with {consumer_slot}",
+            "I have issues with my {consumer_slot}",
+            "{consumer_slot} denied to give services even in warranty period",
+            "{consumer_slot} is not replacing {device} even in gaurantee period",
+            "my {device} got broken",
+            "I got a bad {device}",
+            "File a consumer complaint for {consumer_slot}",
+            "Raise a Grievance Case for {consumer_slot}",
+            "Lodge a complaint againt {consumer_slot}",
+            "I have a dispute with {consumer_slot}",
+            "Consumer Protection Law",
+            "need help as a customer",
+            "get legal help for consumers",
+            "get help regarding {consumer_slot} law",
+            "i have an issue with {consumer_slot}",
+            "i want to complain against {consumer_slot}",
+            "Need help regarding {consumer_slot}"
+          ]
+        },
+        {
+          "name": "Dental",
+          "slots": [
+            {
+              "name": "dental_slot",
+              "type": "Dental_Slot",
+              "samples": [
+                "Reason is {dental_slot}",
+                "I think reason is {dental_slot}",
+                "Problem is with {dental_slot}",
+                "It's {dental_slot}",
+                "{dental_slot}"
+              ]
+            },
+            {
+              "name": "what_have_you_tried_before",
+              "type": "AMAZON.SearchQuery",
+              "samples": [
+                "{what_have_you_tried_before}"
+              ]
+            }
+          ],
+          "samples": [
+            "what to do for {dental_slot} issue",
+            "suffering from {dental_slot}",
+            "Having issue with {dental_slot}",
+            "Feeling pain in {dental_slot}",
+            "There is {dental_slot}",
+            "There is a pain in {dental_slot}",
+            "how to get relaxation from {dental_slot}",
+            "what to do in case of {dental_slot}",
+            "what to do with {dental_slot} infection",
+            "I have {dental_slot}",
+            "There is a {dental_slot} causing pain in my mouth ",
+            "what should be the approach for {dental_slot} solution",
+            "how to deal with {dental_slot}",
+            "I am having misalignment of {dental_slot}",
+            "How to get {dental_slot} correct",
+            "Having something wrong with my {dental_slot}",
+            "what to do when having {dental_slot}",
+            "I am sufferring from a {dental_slot}",
+            "how to get rid off {dental_slot}",
+            "to connect to a Dentist"
+          ]
+        },
+        {
+          "name": "Dermatology",
+          "slots": [
+            {
+              "name": "skin_slot",
+              "type": "Skin_slot",
+              "samples": [
+                "I am having problem with {skin_slot}",
+                "It's {skin_slot}",
+                "{skin_slot}"
+              ]
+            },
+            {
+              "name": "what_have_you_tried_before",
+              "type": "AMAZON.SearchQuery",
+              "samples": [
+                "{what_have_you_tried_before}"
+              ]
+            }
+          ],
+          "samples": [
+            "to connect me to a doctor for {skin_slot}",
+            "to get me some help for {skin_slot} problem",
+            "whom can we approach for {skin_slot}",
+            "what can I do for relief from {skin_slot}",
+            "how to solve problem related to {skin_slot}",
+            "what to do for {skin_slot} issue",
+            "I need help for {skin_slot}",
+            "I need to see a skin doctor",
+            "to connect me to a skin Doctor",
+            "to link me to a Dermatologist",
+            "how to deal with {skin_slot}",
+            "I have {skin_slot} problem",
+            "I am suffering from {skin_slot}  need help",
+            "how to get a help for {skin_slot}",
+            "I am feeling {skin_slot}",
+            "want to visit a skin doctor",
+            "how can I get rid off {skin_slot}",
+            "I want to know about my {skin_slot}",
+            "to link me to a skin specialist",
+            "to connect me with a Dermatologists"
+          ]
+        },
+        {
+          "name": "ConflictIntent",
+          "slots": [],
+          "samples": [
+            "for providing help",
+            "for help",
+            "I have an issue with",
+            "I have no idea",
+            "I have a problem",
+            "i am facing an issue",
+            "can you help me out",
+            "Can i get a help",
+            "I need help",
+            "I have an issue"
+          ]
+        },
+        {
+          "name": "CancelMembership",
+          "slots": [
+            {
+              "name": "membership_slot",
+              "type": "Membership_Slot"
+            },
+            {
+              "name": "good_reason_to_leave",
+              "type": "Good_Reason_To_Leave"
+            },
+            {
+              "name": "bad_reason_to_leave",
+              "type": "Bad_Reason_Of_Leaving"
+            },
+            {
+              "name": "is_accepting_the_offer",
+              "type": "Custom_Yes"
+            }
+          ],
+          "samples": [
+            "to end my {membership_slot}",
+            "how to cancel my {membership_slot}",
+            "how to end my  {membership_slot}",
+            "I want to stop my {membership_slot}",
+            "deactivate my {membership_slot}",
+            "i want to leave just answer",
+            "cancel my {membership_slot}",
+            "end my {membership_slot}",
+            "I want to end my {membership_slot}",
+            "I want to cancel my {membership_slot}"
+          ]
+        },
+        {
+          "name": "WelcomeIntent",
+          "slots": [],
+          "samples": [
+            "I am here"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "Family_Slot",
+          "values": [
+            {
+              "name": {
+                "value": "siblings"
+              }
+            },
+            {
+              "name": {
+                "value": "my"
+              }
+            },
+            {
+              "name": {
+                "value": "kid"
+              }
+            },
+            {
+              "name": {
+                "value": "child"
+              }
+            },
+            {
+              "name": {
+                "value": "father"
+              }
+            },
+            {
+              "name": {
+                "value": "son"
+              }
+            },
+            {
+              "name": {
+                "value": "family"
+              }
+            },
+            {
+              "name": {
+                "value": "mother"
+              }
+            },
+            {
+              "name": {
+                "value": "elder sister"
+              }
+            },
+            {
+              "name": {
+                "value": "mother-in-law"
+              }
+            },
+            {
+              "name": {
+                "value": "daughter"
+              }
+            },
+            {
+              "name": {
+                "value": "stepmother"
+              }
+            },
+            {
+              "name": {
+                "value": "sister-in-law"
+              }
+            },
+            {
+              "name": {
+                "value": "daughter-in-law"
+              }
+            },
+            {
+              "name": {
+                "value": "wife"
+              }
+            },
+            {
+              "name": {
+                "value": "Husband"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Consumer_Slot",
+          "values": [
+            {
+              "name": {
+                "value": "stockbroker"
+              }
+            },
+            {
+              "name": {
+                "value": "auctioneer"
+              }
+            },
+            {
+              "name": {
+                "value": "bookkeeper"
+              }
+            },
+            {
+              "name": {
+                "value": "estate agent"
+              }
+            },
+            {
+              "name": {
+                "value": "building contractor"
+              }
+            },
+            {
+              "name": {
+                "value": "insurance broker"
+              }
+            },
+            {
+              "name": {
+                "value": "real estate broker"
+              }
+            },
+            {
+              "name": {
+                "value": "real estate agent"
+              }
+            },
+            {
+              "name": {
+                "value": "salesman"
+              }
+            },
+            {
+              "name": {
+                "value": "homemaker"
+              }
+            },
+            {
+              "name": {
+                "value": "accountant"
+              }
+            },
+            {
+              "name": {
+                "value": "business owner"
+              }
+            },
+            {
+              "name": {
+                "value": "insurance agent"
+              }
+            },
+            {
+              "name": {
+                "value": "retailer"
+              }
+            },
+            {
+              "name": {
+                "value": "social worker"
+              }
+            },
+            {
+              "name": {
+                "value": "school teacher"
+              }
+            },
+            {
+              "name": {
+                "value": "Shopkeeper"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Type_Slot",
+          "values": [
+            {
+              "name": {
+                "value": "adoption"
+              }
+            },
+            {
+              "name": {
+                "value": "Guardianship"
+              }
+            },
+            {
+              "name": {
+                "value": "adopt"
+              }
+            },
+            {
+              "name": {
+                "value": "documents"
+              }
+            },
+            {
+              "name": {
+                "value": "name"
+              }
+            },
+            {
+              "name": {
+                "value": "prenuptial agreement"
+              }
+            },
+            {
+              "name": {
+                "value": "custody"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Dental_Slot",
+          "values": [
+            {
+              "name": {
+                "value": "tooth"
+              }
+            },
+            {
+              "name": {
+                "value": "mouth"
+              }
+            },
+            {
+              "name": {
+                "value": "oral"
+              }
+            },
+            {
+              "name": {
+                "value": "pain"
+              }
+            },
+            {
+              "name": {
+                "value": "teeth"
+              }
+            },
+            {
+              "name": {
+                "value": "periodontal disease"
+              }
+            },
+            {
+              "name": {
+                "value": "periodontitis"
+              }
+            },
+            {
+              "name": {
+                "value": "jawline"
+              }
+            },
+            {
+              "name": {
+                "value": "bad breath"
+              }
+            },
+            {
+              "name": {
+                "value": "loose teeth"
+              }
+            },
+            {
+              "name": {
+                "value": "receding gums"
+              }
+            },
+            {
+              "name": {
+                "value": "dental caries"
+              }
+            },
+            {
+              "name": {
+                "value": "gingiva"
+              }
+            },
+            {
+              "name": {
+                "value": "tooth decay"
+              }
+            },
+            {
+              "name": {
+                "value": "sensitivity"
+              }
+            },
+            {
+              "name": {
+                "value": "bleeding enamel"
+              }
+            },
+            {
+              "name": {
+                "value": "enamel problem"
+              }
+            },
+            {
+              "name": {
+                "value": "oral cavity"
+              }
+            },
+            {
+              "name": {
+                "value": "cavities"
+              }
+            },
+            {
+              "name": {
+                "value": "cavity"
+              }
+            },
+            {
+              "name": {
+                "value": "toothache"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Skin_slot",
+          "values": [
+            {
+              "name": {
+                "value": "Allergies"
+              }
+            },
+            {
+              "name": {
+                "value": "pimples"
+              }
+            },
+            {
+              "name": {
+                "value": "skin darkening"
+              }
+            },
+            {
+              "name": {
+                "value": "skin"
+              }
+            },
+            {
+              "name": {
+                "value": "Psoriasis"
+              }
+            },
+            {
+              "name": {
+                "value": "asthetics"
+              }
+            },
+            {
+              "name": {
+                "value": "itchiness"
+              }
+            },
+            {
+              "name": {
+                "value": "dermatitis"
+              }
+            },
+            {
+              "name": {
+                "value": "skin lesions"
+              }
+            },
+            {
+              "name": {
+                "value": "eczema"
+              }
+            },
+            {
+              "name": {
+                "value": "rashes"
+              }
+            },
+            {
+              "name": {
+                "value": "acne"
+              }
+            },
+            {
+              "name": {
+                "value": "scars"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Membership_Slot",
+          "values": [
+            {
+              "name": {
+                "value": "paid subscription"
+              }
+            },
+            {
+              "name": {
+                "value": "subscriptions"
+              }
+            },
+            {
+              "name": {
+                "value": "account"
+              }
+            },
+            {
+              "name": {
+                "value": "memberships"
+              }
+            },
+            {
+              "name": {
+                "value": "subscription"
+              }
+            },
+            {
+              "name": {
+                "value": "memo"
+              }
+            },
+            {
+              "name": {
+                "value": "membership"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Custom_Yes",
+          "values": [
+            {
+              "name": {
+                "value": "hmmm"
+              }
+            },
+            {
+              "name": {
+                "value": "hmm"
+              }
+            },
+            {
+              "name": {
+                "value": "yep"
+              }
+            },
+            {
+              "name": {
+                "value": "fine"
+              }
+            },
+            {
+              "name": {
+                "value": "y"
+              }
+            },
+            {
+              "name": {
+                "value": "yes"
+              }
+            },
+            {
+              "name": {
+                "value": "yeah"
+              }
+            },
+            {
+              "name": {
+                "value": "ok"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Bad_Reason_Of_Leaving",
+          "values": [
+            {
+              "name": {
+                "value": "inadequate"
+              }
+            },
+            {
+              "name": {
+                "value": "problematic"
+              }
+            },
+            {
+              "name": {
+                "value": "inefficient"
+              }
+            },
+            {
+              "name": {
+                "value": "unwieldy"
+              }
+            },
+            {
+              "name": {
+                "value": "tedious"
+              }
+            },
+            {
+              "name": {
+                "value": "complicated"
+              }
+            },
+            {
+              "name": {
+                "value": "infeasible"
+              }
+            },
+            {
+              "name": {
+                "value": "unfeasible"
+              }
+            },
+            {
+              "name": {
+                "value": "cumbersome"
+              }
+            },
+            {
+              "name": {
+                "value": "difficult"
+              }
+            },
+            {
+              "name": {
+                "value": "time-consuming"
+              }
+            },
+            {
+              "name": {
+                "value": "unsatisfactory"
+              }
+            },
+            {
+              "name": {
+                "value": "impractical"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Good_Reason_To_Leave",
+          "values": [
+            {
+              "name": {
+                "value": "full cost"
+              }
+            },
+            {
+              "name": {
+                "value": "total cost"
+              }
+            },
+            {
+              "name": {
+                "value": "total costs"
+              }
+            },
+            {
+              "name": {
+                "value": "market price"
+              }
+            },
+            {
+              "name": {
+                "value": "money"
+              }
+            },
+            {
+              "name": {
+                "value": "price"
+              }
+            },
+            {
+              "name": {
+                "value": "prices"
+              }
+            },
+            {
+              "name": {
+                "value": "cost"
+              }
+            },
+            {
+              "name": {
+                "value": "costs"
+              }
+            },
+            {
+              "name": {
+                "value": "unsustainable"
+              }
+            },
+            {
+              "name": {
+                "value": "capital intensive"
+              }
+            },
+            {
+              "name": {
+                "value": "unprofitable"
+              }
+            },
+            {
+              "name": {
+                "value": "uneconomic"
+              }
+            },
+            {
+              "name": {
+                "value": "uneconomical"
+              }
+            },
+            {
+              "name": {
+                "value": "unaffordable"
+              }
+            },
+            {
+              "name": {
+                "value": "costly"
+              }
+            },
+            {
+              "name": {
+                "value": "expensive"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "FamilyLaw",
+          "delegationStrategy": "ALWAYS",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "family_slot",
+              "type": "Family_Slot",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.218332677342.870526130240"
+              }
+            },
+            {
+              "name": "what_have_you_tried_before",
+              "type": "AMAZON.SearchQuery",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.654107076407.1106265234406"
+              }
+            },
+            {
+              "name": "type_slot",
+              "type": "Type_Slot",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "which_city_you_are_in",
+              "type": "AMAZON.City",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1541180474364.860991025837"
+              }
+            }
+          ]
+        },
+        {
+          "name": "ConsumerLaw",
+          "delegationStrategy": "ALWAYS",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "consumer_slot",
+              "type": "Consumer_Slot",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.607528576003.1039986406090"
+              }
+            },
+            {
+              "name": "what_have_you_tried_before",
+              "type": "AMAZON.SearchQuery",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.607528576003.1116080864725"
+              }
+            },
+            {
+              "name": "which_city_are_you_in",
+              "type": "AMAZON.City",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.447999168379.285285375799"
+              }
+            },
+            {
+              "name": "device",
+              "type": "AMAZON.DeviceType",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            }
+          ]
+        },
+        {
+          "name": "Dental",
+          "delegationStrategy": "ALWAYS",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "dental_slot",
+              "type": "Dental_Slot",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1353232638420.184044087514"
+              }
+            },
+            {
+              "name": "what_have_you_tried_before",
+              "type": "AMAZON.SearchQuery",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1353232638420.1321971105307"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Dermatology",
+          "delegationStrategy": "ALWAYS",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "skin_slot",
+              "type": "Skin_slot",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1459792641959.1014692184380"
+              }
+            },
+            {
+              "name": "what_have_you_tried_before",
+              "type": "AMAZON.SearchQuery",
+              "confirmationRequired": false,
+              "elicitationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1459792641959.819811560222"
+              }
+            }
+          ]
+        },
+        {
+          "name": "CancelMembership",
+          "delegationStrategy": "SKILL_RESPONSE",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "membership_slot",
+              "type": "Membership_Slot",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "good_reason_to_leave",
+              "type": "Good_Reason_To_Leave",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "bad_reason_to_leave",
+              "type": "Bad_Reason_Of_Leaving",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "is_accepting_the_offer",
+              "type": "Custom_Yes",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.218332677342.870526130240",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "With whom you have an issue?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.654107076407.1106265234406",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Have you consulted any expert regarding this before?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Please tell if you have tried anything before?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.607528576003.1039986406090",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "With whom do you have an issue with?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.607528576003.1116080864725",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "what steps you have taken so far?"
+          },
+          {
+            "type": "PlainText",
+            "value": "What all have you tried until now?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1139011720963.1204042497908",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "what do you mean"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.463357689504.343057230033",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Family law varies by state. What state are you in?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.447999168379.285285375799",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What state are you in, It matters because laws vary by location?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1541180474364.860991025837",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Family law varies by state. Which state are you in?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1353232638420.1321971105307",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Can you see or feel anything else in your mouth that is causing concern?"
+          },
+          {
+            "type": "PlainText",
+            "value": "When was your last visit to the dentist, Any irregular checkups?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Anything in your medical history you think the Dentist should know?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Have you seen a doctor about this?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Have you used any medication for this?"
+          },
+          {
+            "type": "PlainText",
+            "value": "The Dentist can help. Just a couple quick questions before I transfer you. What are your symptoms?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1353232638420.184044087514",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Which part is the reason?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1459792641959.1014692184380",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "what is the problem"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1459792641959.819811560222",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Have you seen a doctor about this?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Anything else in your medical history you think the Doctor should know?"
+          },
+          {
+            "type": "PlainText",
+            "value": "When was your last visit to the Doctor, Any irregular checkups?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Have you used any medication for this?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Intent.1173329406221",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Are you sure you want to cancel?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.580898788814.588257372522",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "We are very sorry to know that, can you please specify a reason to leave?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1122936502789.1459338125948",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Can you please specify a reason to leave?"
+          }
+        ]
+      }
+    ]
+  }
+}
